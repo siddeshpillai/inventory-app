@@ -1,7 +1,7 @@
 package com.example.inventory.data
 
 import androidx.room.*
-import java.util.concurrent.Flow
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ItemDao {
